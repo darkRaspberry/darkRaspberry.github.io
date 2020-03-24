@@ -31,13 +31,12 @@ a{text-decoration: none;}.fullwidth{max-width:none;}
 /*Div 3 ends here*/
 /*Footer starts here*/
 .footer{background-color:#21243d;margin:0 auto;padding:2rem;color:white;}.made{text-align:right;}
-/*Footer ends here*/
-h1 {
-    font-size: 5.9vw;
+/*Footer ends here*/@media only screen and (max-width:500px){h1 {
+    font-size: 6.2vw;
   }
   h2 {
-    font-size: 3.0vh;
+    font-size: 3.0vw;
   }
   p {
     font-size: 2vmin;
-  }
+  }}
