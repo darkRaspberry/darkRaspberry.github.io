@@ -3,24 +3,21 @@
 
 /*Global properties starts here*/
 *{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
-
-
-@media only screen and (max-height:200px){body{visibility:hidden;}}@media only screen and (max-width:200px){body{visibility:hidden;}}
+html{font-size:100%;}.clear:after{clear:both;content: ".";visibility:hidden;display:block;height:0;}
+/*Offline fonts*/
+@font-face{font-family:youthPower;src:url('/wp-content/assets/off-font/youthPower/youthPower.ttf');}/*Special thanks khurasan*/
 h1{font-family:'youthPower';padding:1vw;}
-.clear{clear:both;}
 
 body{text-align:center;}
 /*remove underline from text*/
-a{text-decoration: none;}.fullwidth{max-width:none;}
+a{text-decoration:none!important;color:inherit!important;}.fullwidth{max-width:none;}
 /*Button(Special Thanks to https://www.30secondsofcode.org/)*/
 .button{background-color:#c47135;border:none;color:#ffffff;outline:none;padding:12px 40px 10px;position:relative;margin:0.6em;;}.button:before,.button:after{border:0 solid transparent;transition:all 0.25s;content:'';height:24px;position: absolute;width:24px;}.button:before{border-top:2px solid #c47135;left:0px;top:-5px;}.button:after{border-bottom:2px solid #c47135;bottom:-5px;right:0px;}.button:hover{background-color:#c47135;}.button:hover:before,.button:hover:after{height:100%;width:100%;}
-/*Offline fonts*/
-@font-face{font-family:youthPower;src:url('/wp-content/assets/off-font/youthPower/youthPower.ttf');}/*Special thanks khurasan*/
+
 /*Global properties ends here*/
 
 /*Header starts here*/
-.header{background-color:#f8b195;text-align:center;padding:0.7rem;max-width:none;margin:0;overflow: auto;}/*Nav*/.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header a:hover{background-color:#C6E9FF;text-decoration:none;}/*Layout for small screen*/header button{display:none;}@media only screen and (max-width:500px){/*Column view*/header ul{flex-direction:column;margin:0 0 0 0;padding:2vh 2vh 2vh 2vh;}/* delete margin up&down*/header li{margin:0;display:block;padding:0;}/*Make fullscreen*/header button{display:block;padding:2vw;font-size:3vh;background-color:#AFE0FF;border:none;outline:none;cursor:pointer;}.header a:hover{display:block;padding:0.5em;}}
-.headBar *{display:inline-block;margin:auto;position:relative;margin:0 auto;vertical-align:middle;}.headBar{float:left;text-align: left;}nav{float:right;margin:1rem 0 1rem 0;}/*Header ends here*/
+.header{background-color:#f8b195;text-align:center;padding:0.6rem;max-width:none;margin:0;overflow:auto;}/*Nav*/nav{float:right;margin:1rem 0 1rem 0;}.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header li a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header li a:hover{background-color:#f8b195;filter:invert(100%);text-decoration:none;}/*Layout for small screen*/header button{display:none;}.headbar *{display:inline;margin:auto;position:relative;margin:0 auto;vertical-align:middle;}.headbar{float:left;text-align:left;padding-left:0.5rem;}/*Header ends here*/
 /*Div 1 opens here*/
 .div1{background-color:#f67280;padding:2rem;height:90vh!important;}
 /*Div 1 ends here*/
@@ -32,13 +29,5 @@ a{text-decoration: none;}.fullwidth{max-width:none;}
 /*Div 3 ends here*/
 /*Footer starts here*/
 .footer{background-color:#21243d;margin:0 auto;padding:2rem;color:white;}.made{text-align:right;}
-/*Footer ends here*/@media only screen and (max-width:500px){h1 {
-    font-size: 6.2vw;
-  }
-  h2 {
-    font-size: 3.0vw;
-  }
-  p {
-    font-size: 2vmin;
-  }}
-  
+/*Footer ends here*/
+header img{height:5vw;}
