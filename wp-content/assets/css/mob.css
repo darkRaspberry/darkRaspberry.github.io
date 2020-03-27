@@ -1,4 +1,4 @@
 /*Fonts size on mob*/@media only screen and (max-width:500px){h1{font-size: 6.2vw;}h2{font-size:3.0vw;}p{font-size:2vmin;}}
 /*header for mob starts here*/
-@media only screen and (max-width:500px){/*Column view*/header ul{flex-direction:column;margin:0 0 0 0;padding:2vh 2vh 2vh 2vh;}/* delete margin up&down*/header li{margin:0;display:block;padding:0;}/*Make fullscreen*/header button{display:block;padding:2vw;font-size:3vh;background-color:#AFE0FF;border:none;outline:none;cursor:pointer;}.header li a:hover{display:block;padding:0.5em;}/*Float error*/.headbar, nav{float:none;}.headbar{text-align:center;}}
+@media only screen and (max-width:500px){nav{margin:0;}.headbar{padding:0;}/*Column view*/header ul{flex-direction:column;margin:0 0 0 0;padding:2vh 2vh 2vh 2vh;}/* delete margin up&down*/header li{margin:0;display:block;padding:0;}/*Make fullscreen*/header button{display:block;padding:2vw;font-size:3vh;background-color:#f8b195;border:none;outline:none;cursor:pointer;filter:invert(100%);}.header li a:hover{display:block;padding:0.5em;}/*Float error*/.headbar, nav{float:none;}.headbar{text-align:center;}}
 /*Header ends here*/
