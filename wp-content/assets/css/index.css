@@ -17,8 +17,8 @@ a{text-decoration:none!important;color:inherit!important;}.fullwidth{max-width:n
 /*Global properties ends here*/
 
 /*Header starts here*/
-.header{background-color:#f8b195;text-align:center;padding:0.6rem;max-width:none;margin:0;overflow:auto;}/*Nav*/nav{float:right;margin:1rem 0 1rem 0;}.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header li a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header li a:hover{background-color:#f8b195;filter:invert(100%);text-decoration:none;}/*Layout for small screen*/header button{display:none;}.headbar *{display:inline;margin:auto;position:relative;margin:0 auto;vertical-align:middle;}.headbar{float:left;text-align:left;padding-left:0.5rem;}
-@media only screen and (min-width:500px){header{position:fixed;top:0;right:0;left:0;z-index:1030;}}/*Header ends here*/
+.header{background-color:#f8b195;text-align:center;padding:0.6rem;max-width:none;margin:0;}/*Nav*/nav{float:right;margin:1rem 0 1rem 0;}.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header li a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header li a:hover{background-color:#f8b195;filter:invert(100%);text-decoration:none;}/*Layout for small screen*/header button{display:none;}.headbar *{display:inline;margin:auto;position:relative;margin:0 auto;vertical-align:middle;}.headbar{float:left;text-align:left;padding-left:0.5rem;}
+@media only screen and (min-width:500px){header{position:fixed;top:0;transition:0.3s;width:100%;z-index:1;}}/*Header ends here*/
 /*Div 1 opens here*/
 .div1{background-color:#f67280;padding:2rem;height:90vh!important;}
 /*Div 1 ends here*/
