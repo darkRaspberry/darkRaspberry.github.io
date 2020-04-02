@@ -2,8 +2,8 @@
 /* Extract from https://github.com/darkRaspberry by Abhay Kumar Verma*/
 
 /*Global properties starts here*/
-*{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
-html{font-size:100%;}.clear:after{clear:both;content: ".";visibility:hidden;display:block;height:0;}
+html{font-size:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}.clear:after{clear:both;content:" ";font-size:0;visibility:hidden;display:block;height:0;}
+*, *::before,*::after{box-sizing:inherit;-webkit-box-sizing:inherit;-moz-box-sizing:inherit;}
 /*Offline fonts*/
 @font-face{font-family:youthPower;src:url('/wp-content/assets/off-font/youthPower/youthPower.ttf');}/*Special thanks khurasan*/
 h1{font-family:'youthPower';padding:1vw;}
