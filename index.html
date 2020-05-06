@@ -52,9 +52,34 @@
     <ul class="headcellbox"><button class="navbutt">🞬</button><li><a href="/">Home</a></li><li><a href="/github">GitHub</a></li><li><a href="/blog">Blog</a></li><li><a href="/about">About us</a></li></ul>
 </nav>
   </header>
-<div class="div1 fullwidth">Dive is mine<br><p>
-content here are listed above Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam in quidem voluptatem. Ab perspiciatis asperiores ipsa cumque, architecto aspernatur mollitia distinctio laborum eos consequatur, facilis blanditiis cum ipsum fuga nisi?</p></div>
-<div class="div2 fullwidth"><p><a href="https://www.patreon.com/bePatron?u=33323971" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></p></div>
+<div class="div1 fullwidth">Dive is mine<br><p>We seriously need funds to starts this.</p></div>
+<div class="div2 fullwidth"><p><div id="paypal-button-container"></div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    paypal.Buttons({
+        style: {
+            shape: 'pill',
+            color: 'gold',
+            layout: 'vertical',
+            label: 'paypal',
+            
+        },
+        createOrder: function(data, actions) {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: '1'
+                    }
+                }]
+            });
+        },
+        onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+                alert('Transaction completed by ' + details.payer.name.given_name + '!');
+            });
+        }
+    }).render('#paypal-button-container');
+  </script></p><p><a href="https://www.patreon.com/bePatron?u=33323971" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></p></div>
 <div class="div3 fullwidth">Dive is mine3 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis totam alias dicta similique animi, dignissimos eum nihil atque necessitatibus quos, quibusdam impedit fugit placeat aperiam doloribus? Nobis, eius voluptates. Maiores.</p>
 <!--<img src="/wp-content/assets/img/tree-protect.png" alt="Tree Protect"><br>-->
 <button class="button">Submit</button>
