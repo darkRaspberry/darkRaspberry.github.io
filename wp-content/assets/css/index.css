@@ -8,27 +8,16 @@ html{font-size:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box
 @font-face{font-family:youthPower;src:url('/wp-content/assets/off-font/youthPower/youthPower.ttf');}/*Special thanks khurasan*/
 h1{font-family:'youthPower';padding:1vw;}
 
-body{text-align:center;}
+.right-align{text-align:right;}.center-align{text-align: center;}
 /*remove underline from text*/
-a{text-decoration:none!important;color:inherit!important;}.fullwidth{max-width:none;}
-/*Button(Special Thanks to https://www.30secondsofcode.org/)*/
-.button{background-color:#c47135;border:none;color:#ffffff;outline:none;padding:12px 40px 10px;position:relative;margin:0.6em;;}.button:before,.button:after{border:0 solid transparent;transition:all 0.25s;content:'';height:24px;position: absolute;width:24px;}.button:before{border-top:2px solid #c47135;left:0px;top:-5px;}.button:after{border-bottom:2px solid #c47135;bottom:-5px;right:0px;}.button:hover{background-color:#c47135;}.button:hover:before,.button:hover:after{height:100%;width:100%;}
-
+a{text-decoration:none!important;color:inherit!important;}
 /*Global properties ends here*/
 
 /*Header starts here*/
-.header{background-color:#f8b195;text-align:center;padding:0.6rem;max-width:none;margin:0;}/*Nav*/nav{float:right;margin:1rem 0 1rem 0;}.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header li a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header li a:hover{background-color:#f8b195;filter:invert(100%);text-decoration:none;}/*Layout for small screen*/header button{display:none;}.headbar *{display:inline;margin:auto;position:relative;margin:0 auto;vertical-align:middle;}.headbar{float:left;text-align:left;padding-left:0.5rem;}
-@media only screen and (min-width:500px){header{position:fixed;top:0;transition:0.3s;width:100%;z-index:1;}}/*Header ends here*/
+.header{background-color:#f8b195;text-align:center;padding:0.6rem;max-width:none;margin:0;}/*Nav*/nav{float:right;margin:1rem 0 1rem 0;}.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header li a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header li a:hover{background-color:#f8b195;text-decoration:none;}/*Layout for small screen*/header button{display:none;}.headbar *{display:inline;margin:0 auto;position:relative;margin:0 auto;vertical-align:middle;}.headbar{float:left;text-align:left;padding-left:0.5rem;}
+/*Header ends here*/
 /*Div 1 opens here*/
-.div1{background-color:#f67280;padding:2rem;height:90vh!important;}
-/*Div 1 ends here*/
-/*Div 2 opens here*/
-.div2{background-color:#c06c84;padding:2rem;height:90vh!important;}
-/*Div 2 ends here*/
-/*Div 3 opens here*/
-.div3{background-color:#6c567b;padding:2rem;height:90vh!important;}
-/*Div 3 ends here*/
+
 /*Footer starts here*/
-.footer{background-color:#21243d;margin:0 auto;padding:2rem;color:white;}.made{text-align:right;}
+.footer{background-color:#21243d;margin:0 auto;padding:2rem;color:white;}
 /*Footer ends here*/
-header img{height:5vw;}
