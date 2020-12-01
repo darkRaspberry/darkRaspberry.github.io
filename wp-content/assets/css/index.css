@@ -18,7 +18,7 @@ a{text-decoration:none!important;color:inherit!important;}body{font-family: Cons
 /*Header ends here*/
 /*Div 1 opens here*/
 main{background-color: rgb(210, 216, 179);font-family: inherit;}
-.sec1{background-color: rgb(239, 208, 158);}.sec2{background-color: rgb(212, 170, 125);}
+.sec1{background-color: rgb(239, 208, 158);}.sec2{background-color: rgb(212, 170, 125);}.sec1, .sec2{padding: 3rem;margin: 1rem;}
 /*Footer starts here*/
 .footer{background-color:rgb(39, 39, 39);margin:0 auto;padding:2rem;color:white;font-family: inherit;}
 /*Footer ends here*/
