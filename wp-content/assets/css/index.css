@@ -17,8 +17,9 @@ a{text-decoration:none!important;color:inherit!important;}body{font-family: Cons
 .header{background-color:rgb(144, 169, 183);text-align:center;padding:0.6rem;max-width:none;margin:0;}/*Nav*/nav{float:right;margin:1rem 0 1rem 0;}.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header li a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header li a:hover{background-color:#f8b195;text-decoration:none;}/*Layout for small screen*/header button{display:none;}.headbar *{display:inline;margin:0 auto;position:relative;margin:0 auto;vertical-align:middle;}.headbar{float:left;text-align:left;padding-left:0.5rem;}
 /*Header ends here*/
 /*Div 1 opens here*/
-main{background-color: rgb(210, 216, 179);font-family: inherit;}
-.sec1{background-color: rgb(239, 208, 158);}.sec2{background-color: rgb(212, 170, 125);}.sec1, .sec2{padding: 3rem;margin: 1rem;}
+main{background-color: rgb(210, 216, 179);font-family: inherit;padding: 0.5rem;}.jump a{text-decoration: underline!important;font-style: italic;}
+.sec1{background-color: rgb(239, 208, 158);}.sec2{background-color: rgb(212, 170, 125);}.sec1, .sec2{padding: 3rem;margin: 1rem;border-radius: 100px;border: solid rgb(161, 147, 147);}.sec1 div{padding: 1rem;}
+.projects{font-weight: 700;color: rgba(43, 84, 156, 1.00);text-decoration: underline;}
 /*Footer starts here*/
 .footer{background-color:rgb(39, 39, 39);margin:0 auto;padding:2rem;color:white;font-family: inherit;}
 /*Footer ends here*/
