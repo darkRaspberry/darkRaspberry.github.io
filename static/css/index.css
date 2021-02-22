@@ -8,7 +8,7 @@ html{font-size:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box
 @font-face{font-family:youthPower;src:url('/static/off-font/youthPower/youthPower.ttf');}/*Special thanks khurasan*/
 h1{font-family:'youthPower';padding:1vw;}
 
-.right-align{text-align:right;}.center-align{text-align: center;}.inline-block{display: inline-block;}
+.right-align{text-align:right;}.center-align{text-align: center;}.inline-block{display: inline-block;}.left-align{text-align: left}
 /*remove underline from text*/
 a{text-decoration:none!important;color:inherit!important;}body{font-family: Consolas, monospace;}
 /*Global properties ends here*/
@@ -21,7 +21,7 @@ main{background-color: rgb(210, 216, 179);font-family: inherit;padding: 0.5rem;}
 .sec1{background-color: rgb(239, 208, 158);}.sec2{background-color: rgb(212, 170, 125);padding: 0;margin: 0;}.sec1, .sec2{padding: 3rem;margin: 1rem;border-radius: 100px;border: solid rgb(161, 147, 147);}.sec1 div{padding: 1rem;}
 .projects{font-weight: 700;color: rgba(43, 84, 156, 1.00);text-decoration: underline;}
 /*Footer starts here*/
-.footer{background-color:rgb(39, 39, 39);margin:0 auto;padding:2rem;color:white;font-family: inherit;}
+.footer{background-color:rgb(39, 39, 39);margin:0 auto;padding:2rem;color:white;font-family: inherit;}.footer-header{display: inline-block;background-color: #ad8878;}.flexContainer{display: flex;justify-content: space-around;}
 /*Footer ends here*/
 
 /*TIMELINE*/
