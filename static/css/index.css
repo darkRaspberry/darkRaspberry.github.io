@@ -8,7 +8,7 @@ html{font-size:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box
 @font-face{font-family:youthPower;src:url('/static/off-font/youthPower/youthPower.ttf');}/*Special thanks khurasan*/
 h1{font-family:'youthPower';padding:1vw;}
 
-.right-align{text-align:right;}.center-align{text-align: center;}.inline-block{display: inline-block;}.left-align{text-align: left}
+.right-align{text-align:right;}.center-align{text-align: center;}.inline-block{display: inline-block;}.left-align{text-align: left}.floatRight{float: right;display: block;}
 /*remove underline from text*/
 a{text-decoration:none!important;color:inherit!important;}body{font-family: Consolas, monospace;}
 /*Global properties ends here*/
@@ -17,25 +17,7 @@ a{text-decoration:none!important;color:inherit!important;}body{font-family: Cons
 .header{background-color:rgb(144, 169, 183);text-align:center;padding:0.6rem;max-width:none;margin:0;}/*Nav*/nav{float:right;margin:1rem 0 1rem 0;}.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header li a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header li a:hover{background-color:#f8b195;text-decoration:none;}/*Layout for small screen*/header button{display:none;}.headbar *{display:inline;margin:0 auto;position:relative;margin:0 auto;vertical-align:middle;}.headbar{float:left;text-align:left;padding-left:0.5rem;}
 /*Header ends here*/
 /*Div 1 opens here*/
-main{background-color: rgb(210, 216, 179);font-family: inherit;padding: 0.5rem;}.jump a{text-decoration: underline!important;font-style: italic;}
-.sec1{background-color: rgb(239, 208, 158);}.sec2{background-color: rgb(212, 170, 125);padding: 0;margin: 0;}.sec1, .sec2{padding: 3rem;margin: 1rem;border-radius: 100px;border: solid rgb(161, 147, 147);}.sec1 div{padding: 1rem;}
-.projects{font-weight: 700;color: rgba(43, 84, 156, 1.00);text-decoration: underline;}
+main{background-color: rgb(210, 216, 179);font-family: inherit;padding: 6rem;}
 /*Footer starts here*/
-.footer{background-color:rgb(39, 39, 39);margin:0 auto;padding:2rem;color:white;font-family: inherit;}.footer-header{display: inline-block;background-color: #ad8878;}.flexContainer{display: flex;justify-content: space-around;}
+.footer{background-color:rgb(39, 39, 39);margin:0 auto;padding:2rem;color:white;font-family: inherit;}.footer-header{display: inline-block;background-color: #ad8878;}.flexContainer{display: flex;justify-content: space-around;padding: 1rem;}
 /*Footer ends here*/
-
-/*TIMELINE*/
-.timeline{position: relative;margin: 50px auto;width: 1000px;padding: 40px 0;}
-.timeline::before{content: '';position: absolute;left: 50%;width: 2px;height: 100%;background: #c5c5c5;}
-.timeline ul{margin: 0;padding: 0}
-.timeline ul li{line-height: normal;position: relative;width: 50%;padding: 20px 40px;}
-.timeline ul li:nth-child(odd){float: left;text-align: right;clear: both;}
-.timeline ul li:nth-child(even){float: right;text-align: left;clear: both;}
-.content{padding-bottom: 20px;}
-.timeline ul li:nth-child(odd)::before{content: '';position: absolute;top:24px;right:-6px;width: 10px;height: 10px;background: rgba(233, 33, 99, 1);border-radius: 50%;box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);}
-.timeline ul li:nth-child(even)::before{content: '';position: absolute;top:24px;left:-4px;width: 10px;height: 10px;background: rgba(233, 33, 99, 1);border-radius: 50%;box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);}
-.timeline ul li h3{margin: 0;padding: 0;font-weight: 600;color: rgba(233, 33, 99, 1);}
-.timeline ul li p{margin: 10px 0 0;padding: 0;}
-.timeline ul li:nth-child(odd) .time{position: absolute;top: 12px;right: -165px;margin: 0;padding: 8px 16px;background: rgba(233, 33, 99, 1);color: #fff;border-radius: 18px;box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.3);}
-.timeline ul li:nth-child(even) .time{position: absolute;top: 12px;left: -165px;margin: 0;padding: 8px 16px;background: rgba(233, 33, 99, 1);color: #fff;border-radius: 18px;box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.3);}
-.timeline ul li .time h4{margin: 0;padding: 0;font-size: 14px;}
