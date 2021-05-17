@@ -1,5 +1,5 @@
-# darkRaspberry.me
+## HI 👋
 
-A GitHub pages hosted web page https://darkraspberry.me .
-Mail- contact@darkraspberry.me
-Please visit and have review here.
+This is my personal website and can be viewed at https://darkraspberry.ga
+
+Pls don't fork it.
