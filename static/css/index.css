@@ -1,23 +1,15 @@
-/* © darkRaspberry ver 5.1.0 | Dec 2020 | by ABHAY KUMAR VERMA */
-/* Extract from https://github.com/darkRaspberry by Abhay Kumar Verma*/
+/* Extract from https://github.com/darkRaspberry/darkRaspberry.github.io by Abhay Kumar Verma*/
 
 /*Global properties starts here*/
-html{font-size:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}.clear:after{clear:both;content:" ";font-size:0;visibility:hidden;display:block;height:0;}
-*, *::before,*::after{box-sizing:inherit;-webkit-box-sizing:inherit;-moz-box-sizing:inherit;}ul,li{list-style-type:none;}
-/*Offline fonts*/
-@font-face{font-family:youthPower;src:url('/static/off-font/youthPower/youthPower.ttf');}/*Special thanks khurasan*/
-h1{font-family:'youthPower';padding:1vw;}
-
-.right-align{text-align:right;}.center-align{text-align: center;}.inline-block{display: inline-block;}.left-align{text-align: left}.floatRight{float: right;display: block;}
-/*remove underline from text*/
-a{text-decoration:none!important;color:inherit!important;}body{font-family: Consolas, monospace;}
+html{font-size:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}.clear:after{clear:both;content:" ";font-size:0;visibility:hidden;display:block;height:0;}*, *::before,*::after{box-sizing:inherit;-webkit-box-sizing:inherit;-moz-box-sizing:inherit;margin: 0;padding: 0;}ul,li{list-style-type:none;}.center-align{text-align: center;}.inline-block{display: inline-block;}.left-align{text-align: left}a{text-decoration:none!important;color:inherit!important;}body{font-family: Consolas, monospace;}
 /*Global properties ends here*/
+h1{font-family:monospace;padding:2vw;}p{padding: 1rem;}body{color:#e2e1d1}
 
 /*Header starts here*/
-.header{background-color:rgb(144, 169, 183);text-align:center;padding:0.6rem;max-width:none;margin:0;}/*Nav*/nav{float:right;margin:1rem 0 1rem 0;}.header ul{display:flex; margin:0;}.header li{list-style-type:none;margin:0 2vh;/*3% of the height of the viewport*/margin:0 0;}.header li a{font-size:3vh;font-family:'Shadows Into Light',cursive;padding:1em;}.header li a:hover{background-color:#f8b195;text-decoration:none;}/*Layout for small screen*/header button{display:none;}.headbar *{display:inline;margin:0 auto;position:relative;margin:0 auto;vertical-align:middle;}.headbar{float:left;text-align:left;padding-left:0.5rem;}
-/*Header ends here*/
+header{background-color: rgb(153, 82, 98);text-align:center;padding:0.6rem;max-width:none;margin:0;}header *{display: inline-block;}
 /*Div 1 opens here*/
-main{background-color: rgb(210, 216, 179);font-family: inherit;padding: 6rem;}
+main{background-color: rgb(81, 91, 122);font-family: inherit;padding: 1.7rem;}
 /*Footer starts here*/
-.footer{background-color:rgb(39, 39, 39);margin:0 auto;padding:2rem;color:white;font-family: inherit;}.footer-header{display: inline-block;background-color: #ad8878;}.flexContainer{display: flex;justify-content: space-around;padding: 1rem;}
-/*Footer ends here*/
+.footer{background-color:#191D32;padding:2rem;color:rgb(221, 190, 190);font-family: inherit;}.footer-header{background-color: #ad8878;color: #191D32;}.flexContainer{display: flex;justify-content: space-around;padding: 2rem;max-width: 1360px;margin: 0 auto;}.social-box * {padding: 0.15rem;}
+
+.btn{padding: 1rem;display: inline-block;background-color: #8b6e5a;box-shadow: 8px 8px 9px 0px rgba(82,25,25,0.75);-webkit-box-shadow: 8px 8px 9px 0px rgba(82,25,25,0.75);-moz-box-shadow: 8px 8px 9px 0px rgba(82,25,25,0.75);}
